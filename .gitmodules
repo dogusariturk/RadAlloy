@@ -1,0 +1,3 @@
+[submodule "third_party/nimplex"]
+	path = third_party/nimplex
+	url = https://github.com/amkrajewski/nimplex.git
