@@ -23,15 +23,15 @@ RadAlloy is a Python package designed for simulating radiation damage in metalli
 
 - **Nuclear Activation Prediction**: Comprehensive nuclear activation analysis for alloy compositions
 - **Component Space Generation**: Efficient generation of compositional spaces using N-dimensional simplex sampling
-- **Interactive Visualization**: Built-in 3D and 4D plotting capabilities using Plotly for result visualization
-- **High-Performance Computing**: Compiled bindings for computationally intensive operations
+- **Interactive Visualization**: Built-in 2D and 3D plotting of composition space for 3- and 4- component systems
 
 ## Installation
 
 ### Requirements
 
 - **Python**: 3.11 or higher
-- **Nim Compiler**: Version 1.6.14 or higher (for compiling Nimplex bindings)
+- **Nim**
+  - For installation instructions, see the [nim installation guide](https://nim-lang.org/install.html).
 
 ### Steps
 
