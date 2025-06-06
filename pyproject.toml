@@ -3,6 +3,7 @@ name = "radalloy"
 version = "0.1.0"
 description = "RadAlloy: Radiation Damage Simulation for Alloys"
 readme = "README.md"
+license = { text = "GPL-3.0-only" }
 authors = [
     { name = "dogusariturk", email = "dogu.sariturk@gmail.com" }
 ]

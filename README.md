@@ -6,6 +6,7 @@
 
 [![Python](https://img.shields.io/badge/python-3.11+-brightgreen.svg)](https://www.python.org/)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+[![Nimplex Tests](https://github.com/dogusariturk/RadAlloy/actions/workflows/test_nimplex.yml/badge.svg)](https://github.com/dogusariturk/RadAlloy/actions/workflows/test_nimplex.yml)
 
 RadAlloy is a Python package designed for simulating radiation damage in metallic alloys. This tool provides computational methods to analyze and predict the behavior of materials under radiation exposure, which is crucial for nuclear applications and materials science research.
 
@@ -30,11 +31,7 @@ RadAlloy is a Python package designed for simulating radiation damage in metalli
 ### Requirements
 
 - **Python**: 3.11 or higher
-- **Core Dependencies**:
-  - NumPy >= 2.2.6
-  - Pandas >= 2.3.0
-  - Plotly >= 6.1.2
-  - Hatchling >= 1.27.0
+- **Nim Compiler**: Version 1.6.14 or higher (for compiling Nimplex bindings)
 
 ### Steps
 
