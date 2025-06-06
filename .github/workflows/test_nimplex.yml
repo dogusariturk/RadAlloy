@@ -5,12 +5,10 @@ on:
     paths:
       - '**.py'
       - 'tests/**'
-      - 'test_nimplex.yml'
   pull_request:
     paths:
       - '**.py'
       - 'tests/**'
-      - 'test_nimplex.yml'
 
 jobs:
   test:
