@@ -1,14 +1,6 @@
 name: Nimplex Tests
 
-on:
-  push:
-    paths:
-      - '**.py'
-      - 'tests/**'
-  pull_request:
-    paths:
-      - '**.py'
-      - 'tests/**'
+on: [push, pull_request]
 
 jobs:
   test:
